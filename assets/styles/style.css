@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 
-
 /* variaveis de controle */
 :root {
     --primary-color: #cf0f0f;
@@ -45,4 +44,37 @@
     --character-top-image-color: #000;
     --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
     --footer-background-color: #000;
+  }
+
+  body{
+    background: var(--page-background);
+  }
+
+  h1, 
+  h2, 
+  h3 {
+    font-family: var(--featured-font-family);
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  p {
+    color: var(--highlight-color);
+  }
+
+  p, input, textarea, label {
+    font-family: "Libre BaskerVille", serif;
+  }
+
+  button {
+    padding: 16px 32px;
+    background-color: transparent;
+    font-weight: 900;
+    font-family: var(--featured-font-family);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 1s;
   }
